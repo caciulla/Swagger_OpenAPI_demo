@@ -117,7 +117,7 @@ components:
                 default: "json"         
     schemas:
             200:
-                    title: "Successful response"           
+                    title: Successful response    
                     type: object
                     properties:
                         coord:
@@ -156,7 +156,7 @@ components:
                             type: integer
                             description: City ID
                             format: int32
-                            example: 2172797
+                            example: 2172797P
                         name: 
                             type: string
                             example: Cairns
@@ -165,8 +165,8 @@ components:
                             description: Internal parameters
                             format: int32
                             example: 200
-            Coords:
-                    title: Coords
+            Coord:
+                    title: Coord
                     type: object
                     properties:
                         lon:    
@@ -218,11 +218,11 @@ components:
                         example: 83
                     temp_min:
                         type:  number
-                        description: "Minimum temperature at the moment. This is a deviation from the current temp that is possible for the large cities and megalopolises geographically expanded (use these parameter optionally). Unit Default: Kelvin, Metric: Celcius, Imperial: Fahrenheit." 
+                        description: 'Minimum temperature at the moment. This is a deviation from the current temp that is possible for the large cities and megalopolises geographically expanded (use these parameter optionally). Unit Default: Kelvin, Metric: Celcius, Imperial: Fahrenheit.'
                         example: 289.81999999999999
                     temp_max: 
                         type: number 
-                        description: "Maximum temperature at the moment. This is a deviation from the current temp that is possible for the large cities and megalopolises geographically expanded (use these parameter optionally). Unit Default: Kelvin, Metric: Celcius, Imperial: Fahrenheit." 
+                        description: 'Maximum temperature at the moment. This is a deviation from the current temp that is possible for the large cities and megalopolises geographically expanded (use these parameter optionally). Unit Default: Kelvin, Metric: Celcius, Imperial: Fahrenheit.'
                         example: 295.37
                     sea_level: 
                         type: number
