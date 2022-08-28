@@ -54,8 +54,8 @@ security:
 -  app_id: []
 
 tags: 
-    -   name: Current Weather Data
-         description: "Get current weather details"
+     -  name: Current Weather Data
+        description: "Get current weather details"
 
 externalDocs: 
     description: API Documentation
