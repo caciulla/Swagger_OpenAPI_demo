@@ -304,7 +304,13 @@ components:
                         format: int32
                         example: 1435650870
 
-
+securitySchemas:
+    app_id:
+        type: apiKey
+        description: API ket to authorize requests.
+        name: app_id
+        in: query 
+        
 
 
 
