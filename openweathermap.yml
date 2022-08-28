@@ -303,14 +303,14 @@ components:
                         description: Sunset time, unix, UTC
                         format: int32
                         example: 1435650870
+                        
+    securitySchemes:
+        app_id:
+            type: apiKey
+            description: API ket to authorize requests.
+            name: app_id
+            in: query 
 
-securitySchemas:
-    app_id:
-        type: apiKey
-        description: API ket to authorize requests.
-        name: app_id
-        in: query 
-        
 
 
 
