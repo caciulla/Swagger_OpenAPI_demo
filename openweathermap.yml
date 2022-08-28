@@ -50,6 +50,16 @@ paths:
                                 title:  "Weather not found"
                                 type:  "string"
                                 example: "Not found"
+security: 
+-  app_id: []
+
+tags: 
+    -   name: Current Weather Data
+         description: "Get current weather details"
+
+externalDocs: 
+    description: API Documentation
+    url: https://openweathermap.org/api 
 
 components:
 
