@@ -204,7 +204,7 @@ components:
                 properties: 
                     temp:
                         type: number
-                        description: 'Temperature. Unit Default: Kelvin, Metric, Celcius, Imperial, Fahrenheit.'
+                        description: 'Temperature. Unit Default: Kelvin, Metric, Celsius, Imperial, Fahrenheit.'
                         example: 293.25
                     pressure: 
                         type: integer
